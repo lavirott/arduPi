@@ -8,5 +8,12 @@ The included release of the different packages are:
   - CANbus library and examples V0.2
   - LoRa library and exemples V1.4
   - LoRaWAN library and examples V1.3
-  - Sigfox library and exemples V1.2
+  - Sigfox library and examples V1.2
+  - XBee examples V0.1
 
+# Usage
+To compile and test the samples, you have to go to examples folder and in any subfolder, you just have:
+```shell
+$ ./cook.sh sample.cpp
+$ sudo ./sample.cpp_exe
+```
