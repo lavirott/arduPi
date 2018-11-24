@@ -13,6 +13,13 @@ The included release of the different packages are:
   - Sigfox library and examples V1.2
   - XBee examples V0.1
 
+# Note
+To activate the shiled's socket even if you don't use these examples, you need to activate GPIO 4 in OUT mode with the following commands:
+```shell
+gpio mode 4 OUT
+gpio write 4 1
+```
+
 # Usage
 To compile and test the samples, you have to go to examples folder and in any subfolder, you just have:
 ```shell
