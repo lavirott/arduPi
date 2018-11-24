@@ -1,6 +1,8 @@
 # arduPi
 This projet merge all th known project from Cooking Hacks for the "Raspberry Pi to Arduino Shields Connection Bridge"
 
+![Raspberry Pi to Arduino Shields Connection Bridge](https://www.cooking-hacks.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry_arduino_shield_600px.1471337569.png)
+
 The included release of the different packages are:
   - arduPi v2.4 (release for Raspberry Pi 2 and 3)
   - arduPi-api V1.8
