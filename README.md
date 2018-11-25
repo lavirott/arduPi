@@ -16,9 +16,12 @@ The included release of the different packages are:
 # Note
 To activate the shiled's socket even if you don't use these examples, you need to activate GPIO 4 in OUT mode with the following commands:
 ```shell
+sudo apt-get install wiringpi
 gpio mode 4 OUT
 gpio write 4 1
+gpio readall
 ```
+Then you can verify than GPIO 4 in configured as 1 and OUT.
 
 # Usage
 To compile and test the samples, you have to go to examples folder and in any subfolder, you just have:
