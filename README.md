@@ -1,5 +1,5 @@
 # arduPi
-This projet merge all th known project from Cooking Hacks for the "Raspberry Pi to Arduino Shields Connection Bridge"
+This projet merge all the known projects from Cooking Hacks for the "Raspberry Pi to Arduino Shields Connection Bridge".
 
 ![Raspberry Pi to Arduino Shields Connection Bridge](https://www.cooking-hacks.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry_arduino_shield_600px.1471337569.png)
 
@@ -14,7 +14,7 @@ The included release of the different packages are:
   - XBee examples V0.1
 
 # Note
-To activate the shiled's socket even if you don't use these examples, you need to activate GPIO 4 in OUT mode with the following commands:
+To activate the shiled's socket, you need to activate GPIO 4 in OUT mode with the following commands:
 ```shell
 sudo apt-get install wiringpi
 gpio mode 4 OUT
@@ -22,6 +22,7 @@ gpio write 4 1
 gpio readall
 ```
 Then you can verify than GPIO 4 in configured as 1 and OUT.
+If you use the provided samples in the examples folder, you won't need to do this. It's done in the initialization process of the socket (socket.ON).
 
 # Usage
 To compile and test the samples, you have to go to examples folder and in any subfolder, you just have:
